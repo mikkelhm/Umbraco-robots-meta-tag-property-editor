@@ -1,6 +1,8 @@
 #Umbraco robots meta tag property editor
 =======================================
 
+![alt text](https://github.com/mikkelhm/Umbraco-robots-meta-tag-property-editor/blob/master/markdown/screenshot.png "Screenshot from Umbraco")
+_above is a screenshot from an Umbraco 7.2.1 installation where the editor is used as datatype for a property called "robots"_
 
 This is a simple property editor, which allows the editor to change the content of the meta tag "robots".
 
@@ -22,3 +24,6 @@ and add the value to their templates. This could be done simply by adding a fiel
 For the above code to be meaningfull, add the property to atleast your home node, 
 and set the appropriate value(probably index, follow, noopd). 
 This will ensure that the tag is written out on all pages, with a proper content. 
+
+
+The editor is testet in Umbraco 7.2.1, but ***SHOULD*** work in all that supports the new Angular UI(Belle, 7.0+))
