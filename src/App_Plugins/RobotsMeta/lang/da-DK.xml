@@ -7,6 +7,7 @@
         <key alias="noindexFollowDescription">Tillader ikke indeksering af denne side, men tillader at følge links på siden</key>
         <key alias="noindexNofollowName">Indekser ikke denne side og følg ikke links</key>
         <key alias="noindexNofollowDescription">Tillader hverken indeksering af siden, eller at følge links på siden</key>
+        <key alias="value">Indstilling</key>
         <key alias="selectedValue">Valgt indstilling</key>
     </area>
 </language>
