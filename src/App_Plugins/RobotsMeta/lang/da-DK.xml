@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="da" intName="Danish" localName="dansk" lcid="6" culture="da-DK">
+    <area alias="robotsMetaTag">
+        <key alias="indexFollowName">Indekser denne side og følg links</key>
+        <key alias="indexFollowDescription">Tillader indeksering af denne side, samt at følge links på siden</key>
+        <key alias="noindexFollowName">Indekser ikke denne side, men følg links</key>
+        <key alias="noindexFollowDescription">Tillader ikke indeksering af denne side, men tillader at følge links på siden</key>
+        <key alias="noindexNofollowName">Indekser ikke denne side og følg ikke links</key>
+        <key alias="noindexNofollowDescription">Tillader hverken indeksering af siden, eller at følge links på siden.</key>
+        <key alias="selectedValue">Valgt indstilling</key>
+    </area>
+</language>
