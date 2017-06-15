@@ -3,13 +3,17 @@
         <li ng-class="{'active':model.value==item.value}">
             <label>
                 <input type="radio" name="robotsvalue" ng-model="model.value" ng-change="model.value = item.value" ng-value="item.value" />
-                <div class="title">{{item.name}}</div>
-                <div class="description">{{item.description}}</div>
-                <div class="value">Value: {{item.value}}</div>
+                <div class="title">
+                    <localize key="{{item.dictionaryKeyForName}}">{{item.name}}</localize>
+                </div>
+                <div class="description">
+                    <localize key="{{item.dictionaryKeyForDescription}}">{{item.description}}</localize>
+                </div>
+                <div class="value"><localize key="robotsMetaTag_value">Value</localize>: {{item.value}}</div>
             </label>
         </li>
     </ul>
     <div>
-        Selected value: {{model.value}}
+        <localize key="robotsMetaTag_selectedValue">Selected value</localize>: {{model.value}}
     </div>
 </div>
