@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+    <area alias="robotsMetaTag">
+        <key alias="indexFollowName">Index this, and follow links</key>
+        <key alias="indexFollowDescription">Will allow indexing of this page, and allow the search engine to follow links</key>
+        <key alias="noindexFollowName">Dont index this, but follow links</key>
+        <key alias="noindexFollowDescription">Will disallow indexing of this page, but will allow the search engine to follow links</key>
+        <key alias="noindexNofollowName">Index none</key>
+        <key alias="noindexNofollowDescription">Will disallow indexing of this page, and disallow it to follow links</key>
+        <key alias="selectedValue">Selected value</key>
+    </area>
+</language>
