@@ -7,6 +7,7 @@
         <key alias="noindexFollowDescription">Will disallow indexing of this page, but will allow the search engine to follow links</key>
         <key alias="noindexNofollowName">Index none</key>
         <key alias="noindexNofollowDescription">Will disallow indexing of this page, and disallow it to follow links</key>
+        <key alias="value">Value</key>
         <key alias="selectedValue">Selected value</key>
     </area>
 </language>
